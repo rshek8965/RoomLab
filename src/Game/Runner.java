@@ -4,7 +4,6 @@ import People.Person;
 import Rooms.Room;
 import Rooms.TeleportRoom;
 import Rooms.WinningRoom;
-import Rooms.TeleportRoom;
 
 import java.util.Scanner;
 
