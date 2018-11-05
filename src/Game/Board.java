@@ -13,6 +13,22 @@ public class Board {
         map = new Room[height][width];
     }
 
+    public void addRoom(Room room, int row, int col)
+    {
+        map[row][col]=room;
+    }
+
+    public String toString() {
+        String x = "";
+        for (Room[] i : map) {
+            for (Room j : i) {
+                x+=j;
+            }
+            x+="\n";
+        }
+        return x;
+    }
+
     public void printBoard()
     {
         for(Room[] i : map)
