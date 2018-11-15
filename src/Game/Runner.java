@@ -16,7 +16,7 @@ public class Runner {
 	{
 		Room[][] building = new Room[10][10];
 
-		Board map = new Board(10,10);
+		//Board map = new Board(10,10);
 
 		
 		//Fill the building with normal rooms
@@ -28,7 +28,7 @@ public class Runner {
 			}
 		}
 
-        System.out.println(map);
+        //System.out.println(map);
 		
 		//Create a random winning room.
 		int x = (int)(Math.random()*building.length);
